@@ -1,15 +1,18 @@
-# ⚡ C Style Samples
+# ⚡ C Code Style Samples
 
-A comparison of the different style options offered by [clang-format](https://clang.llvm.org/docs/ClangFormat.html)
+A comparison of the different style options offered by [clang-format](https://clang.llvm.org/docs/ClangFormat.html). The unformatted code sample is 75 lines.
 
-
-| Option     | Line Count | Reference                                                                                                           |
-| ---------- | ---------- | ------------------------------------------------------------------------------------------------------------------- |
-| `Chromium` | 43         | [Chromium’s style guide](https://chromium.googlesource.com/chromium/src/+/refs/heads/main/styleguide/styleguide.md) |
-| `LLVM`     | 69         | [LLVM coding standards](https://llvm.org/docs/CodingStandards.html)                                                 |
+| Option      | Line Count | Reference                                                                                                               |
+| ----------- | ---------- | ----------------------------------------------------------------------------------------------------------------------- |
+| `Chromium`  | 73         | [Chromium’s style guide](https://chromium.googlesource.com/chromium/src/+/refs/heads/main/styleguide/styleguide.md)     |
+| `GNU`       | 86         | [GNU coding standards](https://www.gnu.org/prep/standards/standards.html)                                               |
+| `Google`    | 69         | [Google’s C++ style guide](https://google.github.io/styleguide/cppguide.html)                                           |
+| `LLVM`      | 71         | [LLVM coding standards](https://llvm.org/docs/CodingStandards.html)                                                     |
+| `Microsoft` | 79         | [Microsoft’s style guide](https://docs.microsoft.com/en-us/visualstudio/ide/editorconfig-code-style-settings-reference) |
+| `Mozilla`   | 85         | [Mozilla’s style guide](https://firefox-source-docs.mozilla.org/code-quality/coding-style/index.html)                   |
+| `WebKit`    | 73         | [WebKit’s style guide](https://www.webkit.org/coding/coding-style.html)                                                 |
 
 ---
-
 
 ### Google
 
@@ -85,16 +88,3 @@ int main() {
 }
 ```
 
-https://github.com/aaron9000/c-style-samples/blob/5932ba132b0a25f9afc669748fd5cdaf823ef091/formatted/Chromium.c#L1-L73
-
-https://github.com/aaron9000/c-style-samples/blob/5932ba132b0a25f9afc669748fd5cdaf823ef091/formatted/GNU.c#L1-L86
-
-https://github.com/aaron9000/c-style-samples/blob/5932ba132b0a25f9afc669748fd5cdaf823ef091/formatted/Google.c#L1-L69
-
-https://github.com/aaron9000/c-style-samples/blob/5932ba132b0a25f9afc669748fd5cdaf823ef091/formatted/LLVM.c#L1-L71
-
-https://github.com/aaron9000/c-style-samples/blob/5932ba132b0a25f9afc669748fd5cdaf823ef091/formatted/Microsoft.c#L1-L79
-
-https://github.com/aaron9000/c-style-samples/blob/5932ba132b0a25f9afc669748fd5cdaf823ef091/formatted/Mozilla.c#L1-L85
-
-https://github.com/aaron9000/c-style-samples/blob/5932ba132b0a25f9afc669748fd5cdaf823ef091/formatted/WebKit.c#L1-L73
