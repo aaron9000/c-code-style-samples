@@ -2,12 +2,15 @@
 
 A comparison of the different style options offered by [clang-format](https://clang.llvm.org/docs/ClangFormat.html)
 
-| Style Option | Line Count |
-| ------------ | ---------- |
-| Google       | 69         |
-| Chromium     | 71         |
+---
+
+| Option     | Line Count | Reference                                                                                                           |
+| ---------- | ---------- | ------------------------------------------------------------------------------------------------------------------- |
+| `Chromium` | 43         | [Chromium’s style guide](https://chromium.googlesource.com/chromium/src/+/refs/heads/main/styleguide/styleguide.md) |
+| `LLVM`     | 69         | [LLVM coding standards](https://llvm.org/docs/CodingStandards.html)                                                 |
 
 ## Google
+
 ```c
 #include <stdio.h>
 
