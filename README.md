@@ -2,6 +2,12 @@
 
 A comparison of the different style options offered by [clang-format](https://clang.llvm.org/docs/ClangFormat.html)
 
+| Style Option | Line Count |
+| ------------ | ---------- |
+| Google       | 69         |
+| Chromium     | 71         |
+
+## Google
 ```c
 #include <stdio.h>
 
