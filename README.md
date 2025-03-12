@@ -1,6 +1,6 @@
 # ⚡ C Code Style Samples
 
-A comparison of the different style options offered by [clang-format](https://clang.llvm.org/docs/ClangFormat.html). The unformatted code sample is 75 lines.
+A comparison of formatted code for each `--style` option in [clang-format](https://clang.llvm.org/docs/ClangFormat.html). NOTE: the unformatted code sample is 75 lines.
 
 | Option      | Line Count | Reference                                                                                                               |
 | ----------- | ---------- | ----------------------------------------------------------------------------------------------------------------------- |
