@@ -1,6 +1,6 @@
 # ⚡ C Code Style Samples
 
-A comparison of prominent C++ coding styles applied to C. More specifically, this is a comparison of code formatted with each `--style` option in the [clang-format](https://clang.llvm.org/docs/ClangFormat.html) CLI.
+A comparison of prominent C++ coding styles applied to a sample of C code. Specifically, this is a comparison of sample code formatted with each `--style` option in the [clang-format](https://clang.llvm.org/docs/ClangFormat.html) CLI. 
 
 | Option      | Formatted Line Count | Max Line Length | Whitespace | Reference                                                                                                           |
 | ----------- | -------------------- | --------------- | ---------- | ------------------------------------------------------------------------------------------------------------------- |
