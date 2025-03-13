@@ -14,7 +14,7 @@ A comparison of prominent C++ coding styles applied to a C code sample. Specific
 
 ---
 
-### Chromium
+## Chromium
 
 ```c
 #include <stdio.h>
@@ -93,9 +93,8 @@ int main() {
 
 ```
 
----
 
-### GNU
+## GNU
 
 ```c
 #include <stdio.h>
@@ -187,9 +186,8 @@ main ()
 
 ```
 
----
 
-### Google
+## Google
 
 ```c
 #include <stdio.h>
@@ -263,9 +261,8 @@ int main() {
 }
 ```
 
----
 
-### LLVM
+## LLVM
 
 ```c
 #include <stdio.h>
@@ -342,9 +339,8 @@ int main() {
 
 ```
 
----
 
-### Microsoft
+## Microsoft
 
 ```c
 #include <stdio.h>
@@ -429,9 +425,8 @@ int main()
 
 ```
 
----
 
-### Mozilla
+## Mozilla
 
 ```c
 #include <stdio.h>
@@ -522,9 +517,8 @@ main()
 
 ```
 
----
 
-### WebKit
+## WebKit
 
 ```c
 #include <stdio.h>
@@ -603,4 +597,3 @@ int main()
 
 ```
 
----
