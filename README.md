@@ -13,7 +13,6 @@ A comparison of prominent C++ coding styles applied to a C code sample. Specific
 | `WebKit`    | 73                   | --              | Spaces     | [WebKit’s style guide](https://www.webkit.org/coding/coding-style.html)                                             |
 
 <br>
-<br>
 
 ## Chromium
 
