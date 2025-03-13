@@ -10,9 +10,10 @@ A comparison of prominent C++ coding styles applied to a C code sample. Specific
 | `LLVM`      | 71                   | 80              | Spaces     | [LLVM coding standards](https://llvm.org/docs/CodingStandards.html)                                                 |
 | `Microsoft` | 79                   | 120             | Tabs       | --                                                                                                                  |
 | `Mozilla`   | 85                   | 80              | Spaces     | [Mozilla’s style guide](https://firefox-source-docs.mozilla.org/code-quality/coding-style/coding_style_cpp.html)    |
-| `WebKit`    | 73                   | --            | Spaces     | [WebKit’s style guide](https://www.webkit.org/coding/coding-style.html)                                             |
+| `WebKit`    | 73                   | --              | Spaces     | [WebKit’s style guide](https://www.webkit.org/coding/coding-style.html)                                             |
 
----
+<br>
+<br>
 
 ## Chromium
 
