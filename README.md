@@ -2,15 +2,15 @@
 
 A comparison of prominent C++ coding styles applied to a C code sample. Specifically, this is a comparison of code formatted with each `--style` option in [clang-format](https://clang.llvm.org/docs/ClangFormat.html).
 
-| Option      | Formatted Line Count | Max Line Length | Whitespace | Reference                                                                                                           |
-| ----------- | -------------------- | --------------- | ---------- | ------------------------------------------------------------------------------------------------------------------- |
-| `Chromium`  | 73                   | 80              | Spaces     | [Chromium’s style guide](https://chromium.googlesource.com/chromium/src/+/refs/heads/main/styleguide/styleguide.md) |
-| `GNU`       | 86                   | 79              | Spaces     | [GNU coding standards](https://www.gnu.org/prep/standards/standards.html)                                           |
-| `Google`    | 69                   | 80              | Spaces     | [Google’s C++ style guide](https://google.github.io/styleguide/cppguide.html)                                       |
-| `LLVM`      | 71                   | 80              | Spaces     | [LLVM coding standards](https://llvm.org/docs/CodingStandards.html)                                                 |
-| `Microsoft` | 79                   | 120             | Tabs       | --                                                                                                                  |
-| `Mozilla`   | 85                   | 80              | Spaces     | [Mozilla’s style guide](https://firefox-source-docs.mozilla.org/code-quality/coding-style/coding_style_cpp.html)    |
-| `WebKit`    | 73                   | --              | Spaces     | [WebKit’s style guide](https://www.webkit.org/coding/coding-style.html)                                             |
+| Option                  | Formatted Line Count | Max Line Length | Whitespace | Reference                                                                                                           |
+| ----------------------- | -------------------- | --------------- | ---------- | ------------------------------------------------------------------------------------------------------------------- |
+| [Chromium](#Chromium)   | 73                   | 80              | Spaces     | [Chromium’s style guide](https://chromium.googlesource.com/chromium/src/+/refs/heads/main/styleguide/styleguide.md) |
+| [GNU](#GNU)             | 86                   | 79              | Spaces     | [GNU coding standards](https://www.gnu.org/prep/standards/standards.html)                                           |
+| [Google](#Google)       | 69                   | 80              | Spaces     | [Google’s C++ style guide](https://google.github.io/styleguide/cppguide.html)                                       |
+| [LLVM](#LLVM)           | 71                   | 80              | Spaces     | [LLVM coding standards](https://llvm.org/docs/CodingStandards.html)                                                 |
+| [Microsoft](#Microsoft) | 79                   | 120             | Tabs       | --                                                                                                                  |
+| [Mozilla](#Mozilla)     | 85                   | 80              | Spaces     | [Mozilla’s style guide](https://firefox-source-docs.mozilla.org/code-quality/coding-style/coding_style_cpp.html)    |
+| [WebKit](#WebKit)       | 73                   | --              | Spaces     | [WebKit’s style guide](https://www.webkit.org/coding/coding-style.html)                                             |
 
 <br>
 
