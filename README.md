@@ -2,15 +2,15 @@
 
 A comparison of C code formatted with different `--style` options available in [clang-format](https://clang.llvm.org/docs/ClangFormat.html).
 
-| Option                  | Formatted Length | Max Line Length | `*` Location | Whitespace | Reference                                                                                                           |
-| ----------------------- | ---------------- | --------------- | ------------ | ---------- | ------------------------------------------------------------------------------------------------------------------- |
-| [Chromium](#Chromium)   | 73 lines         | 80 chars        | type side    | spaces     | [Chromium’s style guide](https://chromium.googlesource.com/chromium/src/+/refs/heads/main/styleguide/styleguide.md) |
-| [GNU](#GNU)             | 86 lines         | 79 chars        | value side   | spaces     | [GNU coding standards](https://www.gnu.org/prep/standards/standards.html)                                           |
-| [Google](#Google)       | 69 lines         | 80 chars        | type side    | spaces     | [Google’s C++ style guide](https://google.github.io/styleguide/cppguide.html)                                       |
-| [LLVM](#LLVM)           | 71 lines         | 80 chars        | value side   | spaces     | [LLVM coding standards](https://llvm.org/docs/CodingStandards.html)                                                 |
-| [Microsoft](#Microsoft) | 79 lines         | 120 chars       | value side   | tabs       | --                                                                                                                  |
-| [Mozilla](#Mozilla)     | 85 lines         | 80 chars        | type side    | spaces     | [Mozilla’s style guide](https://firefox-source-docs.mozilla.org/code-quality/coding-style/coding_style_cpp.html)    |
-| [WebKit](#WebKit)       | 73 lines         | --              | type side    | spaces     | [WebKit’s style guide](https://www.webkit.org/coding/coding-style.html)                                             |
+| Option                  | Max Line Length | `*` Location | Whitespace | Reference                                                                                                           |
+| ----------------------- | --------------- | ------------ | ---------- | ------------------------------------------------------------------------------------------------------------------- |
+| [Chromium](#Chromium)   | 80 chars        | type side    | spaces     | [Chromium’s style guide](https://chromium.googlesource.com/chromium/src/+/refs/heads/main/styleguide/styleguide.md) |
+| [GNU](#GNU)             | 79 chars        | value side   | spaces     | [GNU coding standards](https://www.gnu.org/prep/standards/standards.html)                                           |
+| [Google](#Google)       | 80 chars        | type side    | spaces     | [Google’s C++ style guide](https://google.github.io/styleguide/cppguide.html)                                       |
+| [LLVM](#LLVM)           | 80 chars        | value side   | spaces     | [LLVM coding standards](https://llvm.org/docs/CodingStandards.html)                                                 |
+| [Microsoft](#Microsoft) | 120 chars       | value side   | tabs       | --                                                                                                                  |
+| [Mozilla](#Mozilla)     | 80 chars        | type side    | spaces     | [Mozilla’s style guide](https://firefox-source-docs.mozilla.org/code-quality/coding-style/coding_style_cpp.html)    |
+| [WebKit](#WebKit)       | --              | type side    | spaces     | [WebKit’s style guide](https://www.webkit.org/coding/coding-style.html)                                             |
 
 <br>
 
