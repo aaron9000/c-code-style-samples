@@ -1,16 +1,16 @@
 # 📐 C Code Style Samples
 
-A comparison of prominent C++ coding styles applied to a C code sample. Specifically, this is a comparison of code formatted with each `--style` option in [clang-format](https://clang.llvm.org/docs/ClangFormat.html).
+A comparison of C code formatted with different `--style` options available in [clang-format](https://clang.llvm.org/docs/ClangFormat.html).
 
-| Option                  | Formatted Line Count | Max Line Length | Whitespace | Reference                                                                                                           |
-| ----------------------- | -------------------- | --------------- | ---------- | ------------------------------------------------------------------------------------------------------------------- |
-| [Chromium](#Chromium)   | 73                   | 80              | Spaces     | [Chromium’s style guide](https://chromium.googlesource.com/chromium/src/+/refs/heads/main/styleguide/styleguide.md) |
-| [GNU](#GNU)             | 86                   | 79              | Spaces     | [GNU coding standards](https://www.gnu.org/prep/standards/standards.html)                                           |
-| [Google](#Google)       | 69                   | 80              | Spaces     | [Google’s C++ style guide](https://google.github.io/styleguide/cppguide.html)                                       |
-| [LLVM](#LLVM)           | 71                   | 80              | Spaces     | [LLVM coding standards](https://llvm.org/docs/CodingStandards.html)                                                 |
-| [Microsoft](#Microsoft) | 79                   | 120             | Tabs       | --                                                                                                                  |
-| [Mozilla](#Mozilla)     | 85                   | 80              | Spaces     | [Mozilla’s style guide](https://firefox-source-docs.mozilla.org/code-quality/coding-style/coding_style_cpp.html)    |
-| [WebKit](#WebKit)       | 73                   | --              | Spaces     | [WebKit’s style guide](https://www.webkit.org/coding/coding-style.html)                                             |
+| Option                  | Formatted Length | Max Line Length | `*` Location | Whitespace | Reference                                                                                                           |
+| ----------------------- | ---------------- | --------------- | ------------ | ---------- | ------------------------------------------------------------------------------------------------------------------- |
+| [Chromium](#Chromium)   | 73 lines         | 80 chars        | type side    | spaces     | [Chromium’s style guide](https://chromium.googlesource.com/chromium/src/+/refs/heads/main/styleguide/styleguide.md) |
+| [GNU](#GNU)             | 86 lines         | 79 chars        | value side   | spaces     | [GNU coding standards](https://www.gnu.org/prep/standards/standards.html)                                           |
+| [Google](#Google)       | 69 lines         | 80 chars        | type side    | spaces     | [Google’s C++ style guide](https://google.github.io/styleguide/cppguide.html)                                       |
+| [LLVM](#LLVM)           | 71 lines         | 80 chars        | value side   | spaces     | [LLVM coding standards](https://llvm.org/docs/CodingStandards.html)                                                 |
+| [Microsoft](#Microsoft) | 79 lines         | 120 chars       | value side   | tabs       | --                                                                                                                  |
+| [Mozilla](#Mozilla)     | 85 lines         | 80 chars        | type side    | spaces     | [Mozilla’s style guide](https://firefox-source-docs.mozilla.org/code-quality/coding-style/coding_style_cpp.html)    |
+| [WebKit](#WebKit)       | 73 lines         | --              | type side    | spaces     | [WebKit’s style guide](https://www.webkit.org/coding/coding-style.html)                                             |
 
 <br>
 
